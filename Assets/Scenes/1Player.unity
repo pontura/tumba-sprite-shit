@@ -1025,6 +1025,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2037379299174693672, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1038,6 +1042,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 271319576}
     m_Modifications:
+    - target: {fileID: 3130134514103747763, guid: 244d36617e06e1a41ab3a45f65b98ad7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130134514474798439, guid: 244d36617e06e1a41ab3a45f65b98ad7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3130134514497498960, guid: 244d36617e06e1a41ab3a45f65b98ad7, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1087,6 +1099,10 @@ PrefabInstance:
       value: Deatherioro_Pantera:evolutive
       objectReference: {fileID: 0}
     - target: {fileID: 3130134514497498963, guid: 244d36617e06e1a41ab3a45f65b98ad7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130134515316632989, guid: 244d36617e06e1a41ab3a45f65b98ad7, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1578,7 +1594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8061925753229041631, guid: bb17c24fd3ca394499856000262a2348, type: 3}
       propertyPath: m_Name
-      value: PungaStory:evolutive
+      value: PungaStory:loop
       objectReference: {fileID: 0}
     - target: {fileID: 8061925753229041631, guid: bb17c24fd3ca394499856000262a2348, type: 3}
       propertyPath: m_IsActive
@@ -1675,7 +1691,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8313266326238760718, guid: f504fccc808fdfd418a713653e717534, type: 3}
       propertyPath: m_Name
-      value: PungaKill:evolutive
+      value: PungaKill:random
       objectReference: {fileID: 0}
     - target: {fileID: 8313266326238760718, guid: f504fccc808fdfd418a713653e717534, type: 3}
       propertyPath: m_IsActive
@@ -1831,7 +1847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8746212647865674483, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
       propertyPath: m_Name
-      value: Deatherioro_DeathMaster:random
+      value: Deatherioro_DeathMaster:evolutive
       objectReference: {fileID: 0}
     - target: {fileID: 8746212647865674483, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
       propertyPath: m_IsActive
