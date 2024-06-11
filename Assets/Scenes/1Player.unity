@@ -223,15 +223,15 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 327529555255632818}
-  - {fileID: 1096216428}
   - {fileID: 2018922247}
   - {fileID: 44796498}
+  - {fileID: 669083079}
   - {fileID: 1706450140}
   - {fileID: 1385295728}
   - {fileID: 1272818508}
   - {fileID: 3948191594271606165}
   - {fileID: 140605362857618450}
-  - {fileID: 669083079}
+  - {fileID: 1096216428}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
@@ -382,6 +382,10 @@ PrefabInstance:
     - target: {fileID: 8061925753229041631, guid: 4df4f217836981d4ca017442f0c439a1, type: 3}
       propertyPath: m_Name
       value: Milei_1:loop
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061925753229041631, guid: 4df4f217836981d4ca017442f0c439a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -921,7 +925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8390923788995266159, guid: 90379b63ba38c604db740c81c3f18472, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
