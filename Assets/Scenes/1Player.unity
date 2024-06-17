@@ -707,6 +707,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5413746930168580077, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
   m_PrefabInstance: {fileID: 5413746929575729969}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1706450142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88281532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149bb75f1ea6db144b52056f7c6d896e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips: []
 --- !u!1 &1709638956 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8313266326238760718, guid: f504fccc808fdfd418a713653e717534, type: 3}
@@ -1119,7 +1132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3184034933410067146, guid: 32025871f2ea6c54db7389508267ba8d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3184034933410067147, guid: 32025871f2ea6c54db7389508267ba8d, type: 3}
       propertyPath: m_RootOrder
@@ -1276,33 +1289,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 271319576}
     m_Modifications:
-    - target: {fileID: 5413746929296967182, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413746929470391296, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413746929470391298, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413746929470391299, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -117.5974
-      objectReference: {fileID: 0}
     - target: {fileID: 5413746930168580074, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
       propertyPath: m_Name
       value: Deatherioro_Narcomando:evolutive
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413746930168580074, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413746930168580077, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5413746930168580077, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1347,7 +1336,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5413746930168580074, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1706450142}
   m_SourcePrefab: {fileID: 100100000, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
 --- !u!1001 &7892858343578549133
 PrefabInstance:
@@ -1556,6 +1548,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 271319576}
     m_Modifications:
+    - target: {fileID: 4248761713520150496, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1617,6 +1613,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 271319576}
     m_Modifications:
+    - target: {fileID: 3794611771298602033, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: ef70da07815b92048917fc1bf9a0fed4, type: 2}
+    - target: {fileID: 9061013186445861688, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9061013186445861688, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1660,6 +1664,14 @@ PrefabInstance:
     - target: {fileID: 9061013186445861695, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
       propertyPath: m_Name
       value: PungaAK47:loop
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061013186445861695, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061013186709174639, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
