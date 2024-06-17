@@ -96,10 +96,11 @@ public class InputManager : MonoBehaviour
                     animID = rand;
                 break;
             case types.loop:
+                anim.Play(anims[animID].name, -1, 0f);
                 animID++;
                 if (animID > anims.Length-1)
                     animID = 0;
-                break;
+                return;
             case types.evolutive:                
                 anim.Play(anims[animID].name, -1, 0f);        
                 animID++;
