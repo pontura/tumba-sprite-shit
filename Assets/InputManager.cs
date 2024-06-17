@@ -20,7 +20,7 @@ public class InputManager : MonoBehaviour
     int num = 0;
     Animator anim;
     AnimationClip[] anims;
-
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
@@ -33,13 +33,15 @@ public class InputManager : MonoBehaviour
             Action2();
     }
     void Next()
-    {
+    { 
+        animID = 0;
         num++;
         if (num > sprites.Length - 1) num = 0;
         SetActive();
     }
     void Prev()
-    {
+    { 
+        animID = 0;
         num--;
         if (num < 0) num = sprites.Length - 1;
         SetActive();
@@ -98,20 +100,17 @@ public class InputManager : MonoBehaviour
                 if (animID > anims.Length-1)
                     animID = 0;
                 break;
-            case types.evolutive:
+            case types.evolutive:                
+                anim.Play(anims[animID].name, -1, 0f);        
                 animID++;
                 if (animID > anims.Length-1)
                     animID = anims.Length - 1;
-                break;
+                return;
             case types.action:
                 animID = 1;
                 break;
         }
         string animName = anims[animID].name;
         anim.Play(animName, -1, 0f);
-        //foreach (AnimationClip ac in anim.runtimeAnimatorController.animationClips)
-        //{
-        //    // look at all the animation clips here!
-        //}
     }
 }

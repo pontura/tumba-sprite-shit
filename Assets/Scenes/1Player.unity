@@ -739,6 +739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 149bb75f1ea6db144b52056f7c6d896e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clips: []
 --- !u!4 &140605362857618450 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
@@ -833,6 +834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 149bb75f1ea6db144b52056f7c6d896e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clips: []
 --- !u!111 &327529555255632824
 Animation:
   m_ObjectHideFlags: 0
@@ -1192,6 +1194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 149bb75f1ea6db144b52056f7c6d896e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clips: []
 --- !u!1001 &4900462602360527326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1553,10 +1556,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 271319576}
     m_Modifications:
-    - target: {fileID: 4248761713520150496, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1618,14 +1617,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 271319576}
     m_Modifications:
-    - target: {fileID: 3794611771298602033, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
-      propertyPath: m_Animation
-      value: 
-      objectReference: {fileID: 7400000, guid: ef70da07815b92048917fc1bf9a0fed4, type: 2}
-    - target: {fileID: 9061013186445861688, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9061013186445861688, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1669,14 +1660,6 @@ PrefabInstance:
     - target: {fileID: 9061013186445861695, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
       propertyPath: m_Name
       value: PungaAK47:loop
-      objectReference: {fileID: 0}
-    - target: {fileID: 9061013186445861695, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9061013186709174639, guid: 9064d26d0f0f8434fb9605d23519a493, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
