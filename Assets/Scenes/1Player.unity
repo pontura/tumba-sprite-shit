@@ -225,14 +225,14 @@ Transform:
   m_Children:
   - {fileID: 327529555255632818}
   - {fileID: 2018922247}
-  - {fileID: 44796498}
-  - {fileID: 669083079}
+  - {fileID: 1272818508}
   - {fileID: 1706450140}
   - {fileID: 1385295728}
-  - {fileID: 1272818508}
+  - {fileID: 44796498}
+  - {fileID: 669083079}
   - {fileID: 3948191594271606165}
-  - {fileID: 140605362857618450}
   - {fileID: 1096216428}
+  - {fileID: 140605362857618450}
   - {fileID: 1596713302}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -251,15 +251,15 @@ MonoBehaviour:
   type: 0
   sprites:
   - {fileID: 1342585977}
-  - {fileID: 1110563177}
   - {fileID: 663933574}
-  - {fileID: 1936784752}
+  - {fileID: 226900255}
   - {fileID: 88281532}
   - {fileID: 1709638956}
-  - {fileID: 226900255}
-  - {fileID: 1647850496}
-  - {fileID: 2002438964}
+  - {fileID: 1936784752}
   - {fileID: 1310563069}
+  - {fileID: 1647850496}
+  - {fileID: 1110563177}
+  - {fileID: 2002438964}
   - {fileID: 1596713301}
 --- !u!1 &519420028
 GameObject:
