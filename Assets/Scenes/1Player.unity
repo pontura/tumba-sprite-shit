@@ -786,7 +786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8390923788995266159, guid: 90379b63ba38c604db740c81c3f18472, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -887,6 +887,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 271319576}
     m_Modifications:
+    - target: {fileID: 107356358918411649, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 745301212210471962, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1327029218494435051, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1327029219531558456, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -932,6 +944,38 @@ PrefabInstance:
       value: Deatherioro_Needles:evolutive
       objectReference: {fileID: 0}
     - target: {fileID: 1327029219531558457, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037379299174693672, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874335898116330522, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089852537561159620, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3118766277603758400, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907850109031801642, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6115270424994081322, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772632549937368241, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053371082680696430, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1447,10 +1491,6 @@ PrefabInstance:
     - target: {fileID: 8746212647865674483, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
       propertyPath: m_Name
       value: Deatherioro_DeathMaster:evolutive
-      objectReference: {fileID: 0}
-    - target: {fileID: 8746212647865674483, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
