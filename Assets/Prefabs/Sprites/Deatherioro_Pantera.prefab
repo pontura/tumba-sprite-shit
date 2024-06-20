@@ -10293,6 +10293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3130134514497498960}
   - component: {fileID: 3130134514497498961}
+  - component: {fileID: 8252862094246295058}
   m_Layer: 0
   m_Name: Deatherioro_Pantera
   m_TagString: Untagged
@@ -10338,6 +10339,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8252862094246295058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3130134514497498963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149bb75f1ea6db144b52056f7c6d896e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - pantera_final1
+  - pantera_final2
+  - pantera_final3
+  - pantera_final4
+  - pantera_final5
+  - pantera_final5
 --- !u!1 &3130134514502106302
 GameObject:
   m_ObjectHideFlags: 0
