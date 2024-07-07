@@ -520,7 +520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7711551299953418060
 Transform:
   m_ObjectHideFlags: 0
@@ -888,6 +888,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7113426788258145916}
+  - component: {fileID: 3670412046964688655}
+  - component: {fileID: 1141441149733971244}
   m_Layer: 0
   m_Name: MahatmaEugenetics
   m_TagString: Untagged
@@ -914,6 +916,50 @@ Transform:
   - {fileID: 7226531396445952465}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &3670412046964688655
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8793658590714124384}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f99b3bda7cbf7b44d935180853252394, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1141441149733971244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8793658590714124384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149bb75f1ea6db144b52056f7c6d896e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - SS-mahatma01
+  - SS-mahatma02
+  - SS-mahatma03
+  - SS-mahatma04
+  - SS-mahatma05
+  - SS-mahatma06
+  - SS-mahatma07
+  - SS-mahatma08
+  - SS-mahatma09
+  - SS-mahatma02
 --- !u!1 &8966614060817976606
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,7 +976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &547131640923462822
 Transform:
   m_ObjectHideFlags: 0
