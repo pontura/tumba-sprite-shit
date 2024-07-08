@@ -54,10 +54,18 @@ using System;
                     m.audioSource = gameObject.AddComponent<AudioSource>();
                 m.audioSource.volume = m.volume;
             }
-        }        
-
-
-        public void PlaySound(AudioClip audioClip, string sourceName = "common", float volume = 1f, bool loop = false, bool noRepeat = false)
+        }
+        public void StopSound(string sourceName)
+        {
+            AudioSource audioSource = GetAudioSource(sourceName); if (audioSource == null) return;
+            audioSource.Stop();
+        }
+        public void PlaySound(string audioName, string sourceName = "music", bool loop = false, bool noRepeat = false)
+        {
+            AudioClip clip = Resources.Load<AudioClip>("Audio/" + audioName) as AudioClip;
+            PlaySound(clip, sourceName, loop);
+        }
+        public void PlaySound(AudioClip audioClip, string sourceName = "common", bool loop = false, bool noRepeat = false)
         {
             AudioSource audioSource = GetAudioSource(sourceName); if (audioSource == null) return;
             if (noRepeat)
@@ -67,7 +75,6 @@ using System;
             }
             audioSource.clip = audioClip;
             audioSource.loop = loop;
-            audioSource.volume = volume;
             audioSource.Play();
         }
 
