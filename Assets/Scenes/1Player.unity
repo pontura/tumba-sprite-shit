@@ -5176,14 +5176,13 @@ MonoBehaviour:
   - {fileID: 663933574}
   - {fileID: 226900255}
   - {fileID: 88281532}
-  - {fileID: 1709638956}
+  - {fileID: 988557037}
   - {fileID: 1936784752}
   - {fileID: 1310563069}
   - {fileID: 1647850496}
-  - {fileID: 86075434}
-  - {fileID: 2002438964}
   - {fileID: 1596713301}
-  - {fileID: 988557037}
+  - {fileID: 2002438964}
+  - {fileID: 86075434}
 --- !u!1 &289043744
 GameObject:
   m_ObjectHideFlags: 0
@@ -34940,11 +34939,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgMusicName: Narco_background
   musicLoop: 1
---- !u!1 &1709638956 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8313266326238760718, guid: f504fccc808fdfd418a713653e717534, type: 3}
-  m_PrefabInstance: {fileID: 8313266327003095137}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1809293410
 GameObject:
   m_ObjectHideFlags: 0
@@ -39850,7 +39844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9867634303466274faac7c6be536f7be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgMusicName: 
+  bgMusicName: Hot Guachas
   musicLoop: 0
 --- !u!1 &1983631755
 GameObject:
@@ -44763,7 +44757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bgMusicName: Nefassto_background
-  musicLoop: 1
+  musicLoop: 0
 --- !u!1 &2109690738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3098194157662011992, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
@@ -44790,6 +44784,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
   m_PrefabInstance: {fileID: 8688373616589096672}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &140605362857618451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002438964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9867634303466274faac7c6be536f7be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgMusicName: Deathmaster_background
+  musicLoop: 1
 --- !u!1001 &327529555255632817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45107,7 +45115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3130134514497498963, guid: 244d36617e06e1a41ab3a45f65b98ad7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3130134514502106302, guid: 244d36617e06e1a41ab3a45f65b98ad7, type: 3}
       propertyPath: m_IsActive
@@ -45373,20 +45381,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1327029219531558456, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
   m_PrefabInstance: {fileID: 2639185649470540717}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3948191594271606168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1647850496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9867634303466274faac7c6be536f7be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bgMusicName: Deathmaster_background
-  musicLoop: 0
 --- !u!1001 &4900462602360527326
 PrefabInstance:
   m_ObjectHideFlags: 0
