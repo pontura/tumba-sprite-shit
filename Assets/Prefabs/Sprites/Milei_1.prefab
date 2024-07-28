@@ -630,13 +630,14 @@ GameObject:
   - component: {fileID: 8061925753229041624}
   - component: {fileID: 6142622497695838413}
   - component: {fileID: 74887855215375323}
+  - component: {fileID: 3659654793793402934}
   m_Layer: 0
   m_Name: Milei_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8061925753229041624
 Transform:
   m_ObjectHideFlags: 0
@@ -692,3 +693,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips: []
+--- !u!114 &3659654793793402934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8061925753229041631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9867634303466274faac7c6be536f7be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgMusicName: Ciudad
+  musicLoop: 0
