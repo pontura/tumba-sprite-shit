@@ -44742,27 +44742,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgMusicName: Nefassto_background
   musicLoop: 0
---- !u!1 &2109690738 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3098194157662011992, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-  m_PrefabInstance: {fileID: 6272791901255856884}
-  m_PrefabAsset: {fileID: 0}
---- !u!111 &2109690740
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109690738}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 18978d6cb257c8e49bc5117036f969fe, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 18978d6cb257c8e49bc5117036f969fe, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!4 &140605362857618450 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
@@ -45549,29 +45528,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 271319576}
     m_Modifications:
-    - target: {fileID: 356209945327050758, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.461
-      objectReference: {fileID: 0}
-    - target: {fileID: 1437565446249302090, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.219
-      objectReference: {fileID: 0}
     - target: {fileID: 1444394656754995182, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
       propertyPath: m_RootOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1444394656754995182, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1444394656754995182, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1444394656754995182, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1444394656754995182, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45613,39 +45572,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2345778015981923727, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4106193837298154567, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4914447157120461669, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.012
-      objectReference: {fileID: 0}
     - target: {fileID: 5169885536832023593, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
       propertyPath: m_Name
       value: Orator1:random
       objectReference: {fileID: 0}
     - target: {fileID: 5169885536832023593, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5387349691642854511, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: musicLoop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5387349691642854511, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: musicFileName
-      value: Deathmaster_background
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102062938692308455, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -4.5473795
-      objectReference: {fileID: 0}
-    - target: {fileID: 7249197413689057318, guid: 6f2e67dc5bf5eb1459e1fed3848def3b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
