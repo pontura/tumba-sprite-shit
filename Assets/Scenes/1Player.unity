@@ -5011,6 +5011,11 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &19904230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 502458802773244641, guid: 57d3f5f350d140f4b9f4ceca2add89d9, type: 3}
+  m_PrefabInstance: {fileID: 1576255010487599581}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &25292796 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3954497991829591130, guid: f4a32de8029e6884584523895e174001, type: 3}
@@ -5160,7 +5165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   sprites:
-  - {fileID: 1342585977}
+  - {fileID: 19904230}
   - {fileID: 663933574}
   - {fileID: 226900255}
   - {fileID: 88281532}
@@ -5172,6 +5177,7 @@ MonoBehaviour:
   - {fileID: 2002438964}
   - {fileID: 86075434}
   - {fileID: 1445181116}
+  - {fileID: 1342585977}
 --- !u!1 &289043744
 GameObject:
   m_ObjectHideFlags: 0
@@ -44951,7 +44957,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 502458802773244641, guid: 57d3f5f350d140f4b9f4ceca2add89d9, type: 3}
       propertyPath: m_Name
-      value: PerraForce
+      value: PerraForce:loop
       objectReference: {fileID: 0}
     - target: {fileID: 502458802773244646, guid: 57d3f5f350d140f4b9f4ceca2add89d9, type: 3}
       propertyPath: m_RootOrder
