@@ -4,114 +4,20 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    public types type;
-    public enum types
-    {
-        random,
-        action,
-        loop,
-        evolutive
-    }
-    enum state
-    {
-        sprites
-    }
-    [SerializeField] GameObject[] sprites;
-    int num = 0;
-    Animator anim;
-    AnimationClip[] anims;
-    
+    [SerializeField] AreasManager areasManager;
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+            areasManager.NextArea();
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+            areasManager.PrevArea();
         if (Input.GetKeyDown(KeyCode.LeftArrow))
-            Next();
+            areasManager.Next();
         else if (Input.GetKeyDown(KeyCode.RightArrow))
-            Prev();
+            areasManager.Prev();
         else if (Input.GetKeyDown(KeyCode.Space))
-            Action();
+            areasManager.Action();
         else if (Input.GetKeyDown(KeyCode.LeftControl))
-            Action2();
-    }
-    void Next()
-    { 
-        animID = 0;
-        num++;
-        if (num > sprites.Length - 1) num = 0;
-        SetActive();
-    }
-    void Prev()
-    { 
-        animID = 0;
-        num--;
-        if (num < 0) num = sprites.Length - 1;
-        SetActive();
-    }
-    void SetActive()
-    {
-        foreach (GameObject go in sprites)
-            go.SetActive(false);
-
-        GameObject active = sprites[num];
-        string n = active.name;
-
-        string[] arr = n.Split(":"[0]);
-        if (arr.Length > 1)
-        {
-            switch (arr[1])
-            {
-                case "random" : type = types.random; break;
-                case "action": type = types.action;  break;
-                case "loop": type = types.loop; break;
-                case "evolutive": type = types.evolutive; break;
-            }
-        }
-        animID = 0;
-        active.SetActive(true);
-        anims = null;
-        anim = active.GetComponentInChildren<Animator>();
-        if(anim != null)
-            anims = anim.runtimeAnimatorController.animationClips;
-        StartAction();
-    }
-    void Action()
-    {
-        StartAction();
-    }
-    void Action2()
-    {
-        StartAction();
-    }
-    int animID = -1;
-    void StartAction()
-    {
-        if (anims == null) return;
-        if (anims.Length < 2) return;
-        switch(type)
-        {
-            case types.random:
-                int rand = Random.Range(0, anims.Length);
-                if (animID == rand)
-                    StartAction();
-                else
-                    animID = rand;
-                break;
-            case types.loop:
-                anim.Play(anims[animID].name, -1, 0f);
-                animID++;
-                if (animID > anims.Length-1)
-                    animID = 0;
-                return;
-            case types.evolutive:                
-                anim.Play(anims[animID].name, -1, 0f);        
-                animID++;
-                if (animID > anims.Length-1)
-                    animID = anims.Length - 1;
-                return;
-            case types.action:
-                animID = 1;
-                break;
-        }
-        string animName = anims[animID].name;
-        anim.Play(animName, -1, 0f);
+            areasManager.Action2();
     }
 }
