@@ -46411,6 +46411,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1405211332}
     m_Modifications:
+    - target: {fileID: 1420510244710664223, guid: 299ca6d4adef0c04481f0c8a56146166, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1457246653164006104, guid: 299ca6d4adef0c04481f0c8a56146166, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2273457748746018299, guid: 299ca6d4adef0c04481f0c8a56146166, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2558126816346972080, guid: 299ca6d4adef0c04481f0c8a56146166, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2558126817328292690, guid: 299ca6d4adef0c04481f0c8a56146166, type: 3}
       propertyPath: m_Name
       value: BrutalBattle
@@ -46457,6 +46473,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2558126817328292691, guid: 299ca6d4adef0c04481f0c8a56146166, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3185306878953547153, guid: 299ca6d4adef0c04481f0c8a56146166, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783564770245053830, guid: 299ca6d4adef0c04481f0c8a56146166, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535799159531750379, guid: 299ca6d4adef0c04481f0c8a56146166, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9111763161574042964, guid: 299ca6d4adef0c04481f0c8a56146166, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -46876,10 +46908,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mix
       objectReference: {fileID: 0}
-    - target: {fileID: 4900462601769804042, guid: fe3985a709a3799419d74713eace1060, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4900462601769804043, guid: fe3985a709a3799419d74713eace1060, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -47219,6 +47247,10 @@ PrefabInstance:
     - target: {fileID: 898231359916947455, guid: f4a32de8029e6884584523895e174001, type: 3}
       propertyPath: m_Name
       value: SuicideSniper
+      objectReference: {fileID: 0}
+    - target: {fileID: 898231359916947455, guid: f4a32de8029e6884584523895e174001, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3954497991829591130, guid: f4a32de8029e6884584523895e174001, type: 3}
       propertyPath: m_LocalPosition.x
