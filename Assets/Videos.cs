@@ -23,15 +23,38 @@ public class Videos : Area
         videoPlayer.clip = all[id];
         videoPlayer.Play();
     }
-    public override void Next()
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.LeftArrow))
+            Back();
+        else if (Input.GetKey(KeyCode.RightArrow))
+            Fast();
+        else
+            Idle();
+    }
+    public void Idle()
+    {
+        print("Idle");
+        videoPlayer.playbackSpeed = 1;
+    }
+    public void Fast()
+    {
+        print("Fast");
+        videoPlayer.playbackSpeed = 2.5f;
+    }
+    public void Back()
+    {
+        print("Back");
+        videoPlayer.playbackSpeed = 0.2f;
+    }
+    public override void Action()
     {
         if (all.Length == 0) return;
 
         id = (id + 1) % all.Length; // Avanza al siguiente índice, vuelve al inicio si es el último
         PlayVideo();
     }
-
-    public override void Prev()
+    public override void Action2()
     {
         if (all.Length == 0) return;
 
