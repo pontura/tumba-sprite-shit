@@ -1,8 +1,10 @@
 using System;
+using System.Linq;
 using UnityEngine;
 
 public class FlashyLoops : Area
 {
+    public float speed = 1;
     AllContent dataActive;
     public AllContent[] data;
 
@@ -18,6 +20,8 @@ public class FlashyLoops : Area
     {
         base.Show();
         SetOn();
+        
+        Loop();
     }
     void SetOn()
     {
@@ -26,13 +30,20 @@ public class FlashyLoops : Area
         {
             data[i].all.SetActive(i == id);
         }
-    }
-    void SetOnB()
-    {
         for (int i = 0; i < dataActive.content.Length; i++)
-        {
-            dataActive.content[i].SetActive(i == dataActive.contentID);
-        }
+            dataActive.content[i].SetActive(false);
+        CancelInvoke();
+        plagingLoop = true;
+        SetLoop();
+    }
+    GameObject lastLoopActive;
+    void Loop()
+    {
+        if(lastLoopActive != null)
+            lastLoopActive.SetActive(false);
+        lastLoopActive = dataActive.content[UnityEngine.Random.Range(0, dataActive.content.Length)];
+        lastLoopActive.SetActive(true);
+        Invoke("Loop", speed/10);
     }
     public override void Next()
     {
@@ -44,14 +55,23 @@ public class FlashyLoops : Area
         id = (id - 1 + data.Length) % data.Length; // Retrocede al índice anterior, vuelve al final si es el primero
         SetOn();
     }
+    bool plagingLoop;
     public override void Action()
     {
-        dataActive.contentID = (dataActive.contentID + 1) % dataActive.content.Length; // Avanza al siguiente índice, vuelve al inicio si es el último
-        SetOnB();
+        plagingLoop = !plagingLoop;
+        SetLoop();
+        //dataActive.contentID = (dataActive.contentID + 1) % dataActive.content.Length; // Avanza al siguiente índice, vuelve al inicio si es el último
+        // SetOnB();
+    }
+    void SetLoop()
+    {
+        CancelInvoke();
+        if (plagingLoop)
+            Loop();
     }
     public override void Action2()
     {
-        dataActive.contentID = (dataActive.contentID - 1 + dataActive.content.Length) % dataActive.content.Length; // Retrocede al índice anterior, vuelve al final si es el primero
-        SetOnB();
+        //dataActive.contentID = (dataActive.contentID - 1 + dataActive.content.Length) % dataActive.content.Length; // Retrocede al índice anterior, vuelve al final si es el primero
+        //SetOnB();
     }
 }
