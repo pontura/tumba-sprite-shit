@@ -5331,7 +5331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &271319576
 Transform:
   m_ObjectHideFlags: 0
@@ -35671,7 +35671,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1405211332
 Transform:
   m_ObjectHideFlags: 0
@@ -47076,6 +47076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rota:random
       objectReference: {fileID: 0}
+    - target: {fileID: 1866244626184312464, guid: 144dce5e09ff92243bb5b84a5d02840a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1866244626184312471, guid: 144dce5e09ff92243bb5b84a5d02840a, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -47130,15 +47134,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1866244626601759261, guid: 144dce5e09ff92243bb5b84a5d02840a, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1866244626601759261, guid: 144dce5e09ff92243bb5b84a5d02840a, type: 3}
       propertyPath: musicLoop
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1866244626601759261, guid: 144dce5e09ff92243bb5b84a5d02840a, type: 3}
       propertyPath: bgMusicName
-      value: Friendly Tumba
+      value: Friendly Tumba 1
       objectReference: {fileID: 0}
     - target: {fileID: 1866244626783544627, guid: 144dce5e09ff92243bb5b84a5d02840a, type: 3}
       propertyPath: m_LocalScale.x
