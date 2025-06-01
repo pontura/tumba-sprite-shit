@@ -16101,6 +16101,8 @@ MonoBehaviour:
     - {fileID: 4900462602360527330}
     - {fileID: 4900462602360527329}
     - {fileID: 1627520411}
+    - {fileID: 1487062521}
+    - {fileID: 4900462602360527328}
     contentID: 0
   - all: {fileID: 1648398826}
     content:
@@ -16478,6 +16480,11 @@ VideoPlayer:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7431914751057379700, guid: 2e03cadcffcffd24e9bf18f08b3962aa, type: 3}
   m_PrefabInstance: {fileID: 5653516315238994492}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1487062521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6544368257242017569, guid: fe3985a709a3799419d74713eace1060, type: 3}
+  m_PrefabInstance: {fileID: 4900462602360527326}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1498721669 stripped
 GameObject:
@@ -18436,10 +18443,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mix
       objectReference: {fileID: 0}
-    - target: {fileID: 4900462601769804042, guid: fe3985a709a3799419d74713eace1060, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4900462601769804043, guid: fe3985a709a3799419d74713eace1060, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -18488,6 +18491,11 @@ PrefabInstance:
 --- !u!1 &4900462602360527327 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5611074522434393110, guid: fe3985a709a3799419d74713eace1060, type: 3}
+  m_PrefabInstance: {fileID: 4900462602360527326}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4900462602360527328 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7150609234511875571, guid: fe3985a709a3799419d74713eace1060, type: 3}
   m_PrefabInstance: {fileID: 4900462602360527326}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4900462602360527329 stripped
