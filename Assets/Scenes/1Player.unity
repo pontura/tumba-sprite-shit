@@ -16500,7 +16500,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 11}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1387967039
@@ -16925,28 +16925,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   infoData:
-  - title: subway surfer
-    text: bla sobre subway surfers
-  - title: olmedo
-    text: GAMES TO FUCK THE SYSTEM
-  - title: TUMBA GAMES
-    text: GAMES TO FUCK THE SYSTEM
-  - title: TUMBA GAMES
-    text: GAMES TO FUCK THE SYSTEM
-  - title: TUMBA GAMES
-    text: GAMES TO FUCK THE SYSTEM
-  - title: TUMBA GAMES
-    text: GAMES TO FUCK THE SYSTEM
-  - title: TUMBA GAMES
-    text: GAMES TO FUCK THE SYSTEM
-  - title: TUMBA GAMES
-    text: GAMES TO FUCK THE SYSTEM
-  - title: TUMBA GAMES
-    text: GAMES TO FUCK THE SYSTEM
-  - title: TUMBA GAMES
-    text: GAMES TO FUCK THE SYSTEM
-  - title: TUMBA GAMES
-    text: GAMES TO FUCK THE SYSTEM
+  - title: GAME OVER
+    text: METROPUNGA
+  - title: PILU$$0
+    text: PERRA FORCE
+  - title: DICK PETROL
+    text: PERRA FORCE
+  - title: EUGENETICS EN VIVO
+    text: INSANE IMBECILE DANCING
+  - title: INTRO
+    text: METROPUNGA
+  - title: FETO POR NACER
+    text: PERRA FORCE
+  - title: FINAL
+    text: MEGACHUMBO
+  - title: 10 GO T
+    text: PERRA FORCE
+  - title: FINAL
+    text: METROPUNGA
+  - title: ONVRES
+    text: PERRA FORCE
+  - title: CHETOSTERONA
+    text: PERRA FORCE
   all:
   - {fileID: 32900000, guid: 29d42963558c5234a8b44fa02f0015de, type: 3}
   - {fileID: 32900000, guid: 893a07dd3ca78044f91b94bd8131d620, type: 3}
