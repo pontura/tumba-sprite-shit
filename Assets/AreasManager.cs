@@ -3,11 +3,14 @@ using UnityEngine;
 
 public class AreasManager : MonoBehaviour
 {
+    [SerializeField] InfoSignal infoSignal;
+
     public Area[] areas;
     Area area;
     int id;
     private void Start()
     {
+        infoSignal.SetOn(false);
         SetArea();
     }
     private void SetArea()
@@ -48,6 +51,10 @@ public class AreasManager : MonoBehaviour
     public void Action2()
     {
         area.Action2();
+    }
+    public void Info(bool isOn)
+    {
+        infoSignal.SetOn(isOn);
     }
    
 }

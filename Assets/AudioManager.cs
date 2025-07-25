@@ -15,7 +15,6 @@ using System;
             public AudioSource audioSource;
             public float volume = 1;
         }
-        public AudioSource[] clips;
 
         public static AudioManager Instance
         {

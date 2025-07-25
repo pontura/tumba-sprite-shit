@@ -19,5 +19,9 @@ public class InputManager : MonoBehaviour
             areasManager.Action();
         else if (Input.GetKeyDown(KeyCode.LeftControl))
             areasManager.Action2();
+        else if (Input.GetKeyDown(KeyCode.Z))
+            areasManager.Info(true);
+        else if (Input.GetKeyUp(KeyCode.Z))
+            areasManager.Info(false);
     }
 }

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class FlashyLoops : Area
 {
+    public string audio_loop_on;
+    public string audio_loop_off;
+    public string audio_click;
+
     public float speed = 1;
     AllContent dataActive;
     public AllContent[] data;
@@ -35,6 +39,7 @@ public class FlashyLoops : Area
         CancelInvoke();
         plagingLoop = true;
         SetLoop();
+        AudioManager.Instance.PlaySound(audio_click, "ui", false);
     }
     GameObject lastLoopActive;
     void Loop()
@@ -67,7 +72,11 @@ public class FlashyLoops : Area
     {
         CancelInvoke();
         if (plagingLoop)
+        {
+            AudioManager.Instance.PlaySound(audio_loop_on, "music", true);
             Loop();
+        } else
+            AudioManager.Instance.PlaySound(audio_loop_off, "music", true);
     }
     public override void Action2()
     {

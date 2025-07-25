@@ -4,6 +4,14 @@ using UnityEngine.Video;
 
 public class Videos : Area
 {
+    [Serializable]
+    public class VideoInfoData
+    {
+        public string title = "TUMBA GAMES";
+        public string text = "GAMES TO FUCK THE SYSTEM";
+    }
+
+    public VideoInfoData[] infoData;
     VideoPlayer videoPlayer;
     [SerializeField] VideoClip[] all;
     int id;
@@ -20,6 +28,8 @@ public class Videos : Area
     }
     void PlayVideo()
     {
+        VideoInfoData v = infoData[id];
+        InfoSignal.Instance.ChangeData(v.title, v.text);
         videoPlayer.clip = all[id];
         videoPlayer.Play();
     }
