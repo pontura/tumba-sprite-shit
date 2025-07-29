@@ -68,15 +68,23 @@ public class FlashyLoops : Area
         //dataActive.contentID = (dataActive.contentID + 1) % dataActive.content.Length; // Avanza al siguiente índice, vuelve al inicio si es el último
         // SetOnB();
     }
+    float duration_on;
+    float duration_off;
     void SetLoop()
     {
         CancelInvoke();
         if (plagingLoop)
         {
+            duration_off = AudioManager.Instance.GetTimerOf("music");
             AudioManager.Instance.PlaySound(audio_loop_on, "music", true);
+            if (duration_on != 0) AudioManager.Instance.JumpAudioTo("music", duration_on);
             Loop();
         } else
+        {
+            duration_on = AudioManager.Instance.GetTimerOf("music");
             AudioManager.Instance.PlaySound(audio_loop_off, "music", true);
+            if (duration_off != 0) AudioManager.Instance.JumpAudioTo("music", duration_off);
+        }
     }
     public override void Action2()
     {

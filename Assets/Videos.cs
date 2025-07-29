@@ -25,6 +25,7 @@ public class Videos : Area
     {
         base.Show();
         PlayVideo();
+        AudioManager.Instance.PlaySound("", "music", true);
     }
     void PlayVideo()
     {
