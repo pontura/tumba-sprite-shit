@@ -7,6 +7,7 @@ public class FlashyLoops : Area
     public string audio_loop_on;
     public string audio_loop_off;
     public string audio_click;
+    public string audio_click2;
 
     public float speed = 1;
     AllContent dataActive;
@@ -65,6 +66,7 @@ public class FlashyLoops : Area
     {
         plagingLoop = !plagingLoop;
         SetLoop();
+        AudioManager.Instance.PlaySound(audio_click2, "ui", false);
         //dataActive.contentID = (dataActive.contentID + 1) % dataActive.content.Length; // Avanza al siguiente índice, vuelve al inicio si es el último
         // SetOnB();
     }
