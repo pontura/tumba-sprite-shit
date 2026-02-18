@@ -1,4 +1,5 @@
 using System;
+using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.Video;
 
@@ -14,6 +15,7 @@ public class Videos : Area
     public VideoInfoData[] infoData;
     VideoPlayer videoPlayer;
     [SerializeField] VideoClip[] all;
+    [SerializeField] VideoClip callToAction;
     int id;
 
     private void Awake()
@@ -32,6 +34,12 @@ public class Videos : Area
         VideoInfoData v = infoData[id];
         InfoSignal.Instance.ChangeData(v.title, v.text);
         videoPlayer.clip = all[id];
+        videoPlayer.Play();
+    }
+    public void CallToAction()
+    {
+        InfoSignal.Instance.ChangeData("Tumba", "GAMES");
+        videoPlayer.clip = callToAction;
         videoPlayer.Play();
     }
     private void Update()

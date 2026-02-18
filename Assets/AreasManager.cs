@@ -4,6 +4,7 @@ using UnityEngine;
 public class AreasManager : MonoBehaviour
 {
     [SerializeField] InfoSignal infoSignal;
+    [SerializeField] Videos videos;
 
     public Area[] areas;
     Area area;
@@ -56,5 +57,12 @@ public class AreasManager : MonoBehaviour
     {
         infoSignal.SetOn(isOn);
     }
-   
+    public void CallToAction()
+    {
+        print("CALL TO ACTION");
+        id = 1; 
+        SetArea();
+        videos.CallToAction();
+    }
+
 }
