@@ -33,13 +33,13 @@ public class Videos : Area
         VideoInfoData v = infoData[id];
         InfoSignal.Instance.ChangeData(v.title, v.text);
         videoPlayer.clip = all[id];
-        videoPlayer.Play();
+        videoPlayer.Play(); videoPlayer.isLooping = true;
     }
     public void CallToAction()
     {
         InfoSignal.Instance.ChangeData("Tumba", "GAMES");
         videoPlayer.clip = callToAction;
-        videoPlayer.Play();
+        videoPlayer.Play(); videoPlayer.isLooping = true;
     }
     private void Update()
     {
